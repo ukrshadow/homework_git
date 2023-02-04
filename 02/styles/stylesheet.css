@@ -1,0 +1,30 @@
+
+@font-face {
+    font-family: "ZenKaku";
+    src: url("./fonts/ZenKakuGothicAntique-Medium.woff2") format("woff2"),
+    url("./fonts/ZenKakuGothicAntique-Medium.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    }
+
+.screen{
+    width: 1000px;
+    float:left;
+    margin-right: 20px;
+}
+.screen-2{
+    width: 500px;
+    float:left;
+    margin-right: 20px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-family: 'ZenKaku';
+    font-size: 20px;
+}
+.screen-02{
+    padding: 54px 0;
+}
