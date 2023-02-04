@@ -1,0 +1,20 @@
+.nav_list{
+    margin: 15px 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    background: #235d22;
+    padding: 10px 0 10px 0;
+}
+.nav_list>li {
+    list-style-type: none;
+        text-align: center;
+    margin: 0 20px 0 20px;
+}
+     
+.nav_list>li>a {
+    border-bottom: 2px solid transparent;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
