@@ -11,21 +11,21 @@ body {
     flex-direction: column;
     align-items: center;
 }
-.MyCv{
+.mycv{
     width: 50%;
     padding: 0 10px;
     margin: 0 25%;
     text-align: justify;
 }
-.MyPhoto{
+.myphoto{
     width: 250px;
     float:left;
     margin-right: 20px;
 }
-.MyName {
+.myname {
     padding: 0;
     margin: 0;
 }
-.SocialIcons{
+.socialicons{
     width: 30px;
 }
