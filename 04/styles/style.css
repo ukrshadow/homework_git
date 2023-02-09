@@ -31,6 +31,7 @@ h1, h4 {
     padding: 27.5px 0;
     letter-spacing: 0.02em;    
     justify-content: center;
+    border-bottom: 1px solid #828282;
 }
 .nav_menu li {
     padding: 0 20px;
@@ -39,16 +40,17 @@ h1, h4 {
     text-decoration:none;
 }
  
-.first_screen {
-    margin: 23px 0 0 0;
+#main {
+    margin-top: 12px;
 }
+
 
 h1 {
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
-    line-height: 0.9;
+    line-height: 1.26;
 }
 .name {    
     margin-bottom: 50px;
