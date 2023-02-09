@@ -10,7 +10,7 @@ html, body {
     font-family: 'Open Sans';
     font-weight: 400;
     font-size: 18px;
-    line-height: 1.4;
+    line-height: 1.39;
 }
 
 h1, h4 {
@@ -21,24 +21,26 @@ h1, h4 {
 .container {
     max-width: 98%;
     width: 970px;
+    margin: 0 auto;
 
 }
 
-.nav_menu {    
+.nav_menu {
     display: flex;
     list-style: none;
-    text-decoration: none;
     padding: 27.5px 0;
-    letter-spacing: 0.02em;
-    margin-left: 452px;
-    align-items: center;
+    letter-spacing: 0.02em;    
+    justify-content: center;
 }
 .nav_menu li {
     padding: 0 20px;
 }
+.nav_menu li a{
+    text-decoration:none;
+}
  
 .first_screen {
-    margin: 23px 0 0 235px;
+    margin: 23px 0 0 0;
 }
 
 h1 {
