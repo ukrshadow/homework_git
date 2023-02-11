@@ -38,8 +38,13 @@ h1, h4 {
 }
 .nav_menu li a{
     text-decoration:none;
+    color: #828282;
 }
  
+.nav_menu li a:active{
+    color: #070707;  
+}
+
 #main {
     margin-top: 12px;
 }
