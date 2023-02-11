@@ -33,9 +33,11 @@ h1, h4 {
     justify-content: center;
     border-bottom: 1px solid #828282;
 }
+
 .nav_menu li {
     padding: 0 20px;
 }
+
 .nav_menu li a{
     text-decoration:none;
     color: #828282;
@@ -78,3 +80,13 @@ h2{
     justify-content: center;
     padding-top: 100px;
 } 
+
+
+
+
+.skill-items {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
