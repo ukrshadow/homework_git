@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
     <title>06 - Form</title>
 </head>
 <body>
@@ -13,40 +14,64 @@
         <section>
             <div class="container">
                 <form action="#" autocomplete="on" method="post">
-                    <fieldset>                       
-                            <label for="name">Повне ім’я</label>
-                            <input type="text" id="name" name="email"> <br><br>
-                            <label for="email">Email:</label>
-                            <input type="text" id="email"><br><br>
-                            <label for="password">Password:</label>
-                            <input type="password" id="password" name="password"><br><br>
-                            <label for="repeat-password">Repeat password:</label>
-                            <input type="password" id="repeat-password"><br><br>
-                            <label for="f-male">Cтать:</label>
-                            <input type="checkbox" name="male" value="male" id="male">
-                            <label for="male">Чоловіча</label>
-                            <input type="checkbox" name="fmale" value="fmale" id="fmale">
-                            <label for="fmale">Жіноча</label><br><br>
-                            <label for="age">Вік</label>
-                            <input type="text" id="age" name="age" size="2"><br><br>
-                            <label for="courses">Курс</label>
-                            <select name="courses" id="courses">
-                                <option value="chose-course">-=Оберіть курс=-</option>
-                                <option value="front">Front-End</option>
-                                <option value="back">Back-End</option>
-                                <option value="pm">Project Management</option>
-                                <option value="qa">QA manual</option>
-                            </select>
-                            <br><br>
-                            <label for="adress" >Повна адреса</label>
-                            <textarea name="adress" id="adress"  rows="4" >Країна, регіон, місто/селище, вулиця</textarea>         
-                          <br><br>
-                            <input type="checkbox" name="agree" id="agree">
-                          <label for="agree">Я погоджуюсь з обробкою персональних даних</label> 
-                          <br><br>                
+                    <fieldset>
+                        <label for="name">Повне ім’я</label>
+                        <input type="text" id="name" name="email"> <br><br>
+                    
+                        <label for="email">Email:</label>
+                        <input type="text" id="email">
+                    
+                        <br><br>
+                    
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" name="password">
+                    
+                        <br><br>
+                    
+                        <label for="repeat-password">Repeat password:</label>
+                        <input type="password" id="repeat-password">
+                    
+                        <br><br>
+                    
+                        <label for="f-male">Cтать:</label>
+                        <div class="div-fmale">
+                            <input type="radio" name="f-male" checked value="male" id="male">
+                            <label class="fmale" for="male">Чоловіча</label>
+                            <input type="radio" name="f-male" value="fmale" id="fmale">
+                            <label class="fmale" for="fmale">Жіноча</label>
+                        </div>
+                    
+                        <br><br>
+                    
+                        <label for="age">Вік</label>
+                        <input type="number" id="age" value="18" name="age" min="18" max="99">
+                    
+                        <br><br>
+                    
+                        <label for="courses">Курс</label>
+                        <select name="courses" id="courses">
+                            <option value="chose-course">-=Оберіть курс=-</option>
+                            <option value="front">Front-End</option>
+                            <option value="back">Back-End</option>
+                            <option value="pm">Project Management</option>
+                            <option value="qa">QA manual</option>
+                        </select>
+                    
+                        <br><br>
+                    
+                        <label for="adress">Повна адреса</label>
+                        <textarea name="adress" id="adress" rows="4" placeholder="Країна, регіон, місто/селище, вулиaця"></textarea>
+                    
+                        <br><br>
+                    
+                        <input type="checkbox" class="agree" name="agree" id="agree">
+                        <label for="agree" class="label-agree">Я погоджуюсь з обробкою персональних даних</label>
+                    
+                        <br><br>
+                    
                         <button type="reset">Очистити форму</button>
-                          <button type="button">Зареєструватися</button>
-                        </fieldset>
+                        <button type="button">Зареєструватися</button>
+                    </fieldset>
                 </form>
             </div>
         </section>

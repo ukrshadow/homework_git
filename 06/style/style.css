@@ -13,11 +13,37 @@ html, body {
 .container {
 width: 400px;
 background-color: rgb(214, 214, 214);
+margin: 0 auto;
 }
 
 fieldset {
     padding: 30px;
 }
-form input {
 
+input[type=text], [type=password]  {
+    float: right;
 }
+
+input[type=number] {
+    margin: 0 0px 0 145px;
+}
+select#courses  {
+    margin: 0 0px 0 134px;
+}
+
+textarea#adress {
+    margin: 0 0px 0 73px;
+}
+.div-fmale{
+    margin: 0 0px 0 125px;
+    display: inline;
+}
+
+.label-agree {    
+    font-size: 13px;
+}
+
+button [type="button"], [type="reset"] {
+    margin: 0px 15px 0 45px;
+}
+
