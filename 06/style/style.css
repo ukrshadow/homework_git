@@ -25,17 +25,17 @@ input[type=text], [type=password]  {
 }
 
 input[type=number] {
-    margin: 0 0px 0 145px;
+    margin: 0 0px 0 110px;
 }
 select#courses  {
-    margin: 0 0px 0 134px;
+    margin: 0 0px 0 100px;
 }
 
 textarea#adress {
-    margin: 0 0px 0 73px;
+    margin: 0px 0px 0 40px;
 }
 .div-fmale{
-    margin: 0 0px 0 125px;
+    margin: 0 0px 0 92px;
     display: inline;
 }
 
