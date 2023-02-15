@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+h1, h2, h3, h4 {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.container {
+    width: 534px;
+    max-width: 98%;
+    margin: 0 auto;
+}
+
+.title-form {
+    background: #4A4F56;
+    padding: 19px 0 12px 0;
+    text-align: center;
+    color: #FF8984;
+}
+.title p {
+    padding-top: 4px;
+}
+
+.dinner-list{
+    background: #3B3F45;
+    padding: 20px 0 45px 0;
+    text-align: justify;
+}
+
+.pd-130 {
+    padding: 0 130px;
+}
+
+.fs-18 {
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+
+}
+
+.fs-11{
+    font-size: 11px;
+    line-height: 13px;    
+    vertical-align: middle;
+    color: #FFFFFF;
+}
+
+.bg-list{
+    background: #88839E;
+}
+.bg-list-dark:nth-child(2n){
+    background: #7A7593;
+}
+
+.pd-12{
+    padding: 12px 0 14px 12px;
+}
+
+.chekchox-size{
+    width: 19px;
+    height: 19px;
+}
+
+.list-item {
+    cursor: pointer;
+    transition: all .1s ease-in;
+    border-top: 3px  solid transparent;
+    border-bottom: 3px solid transparent;   
+    position: relative; 
+}
+
+.list-item:hover {
+    background: #625E77;
+    border-top: 3px  solid #FFFFFF;
+    border-bottom: 3px solid #FFFFFF;
+}
+
+label {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+
+input:checked + span {
+    text-decoration: line-through;
+    color: #9B96AC;
+    
+}
+
+/* input:checked + label {
+    text-decoration: line-through;
+    color: #9B96AC;
+    
+} */
+
+input:checked ~ span {
+    text-decoration: line-through;
+    color: #9B96AC;  
+    
+}
+
+.fs-11::before {
+    content: "(";
+}
+
+.fs-11::after {
+    content: ")";
+}
+
+.btn {
+    padding: 45px 0 0 0;
+}
+.button {
+    padding: 12px 0;
+    background: #4A4F56;
+    color: #FF8984;
+    border: none;
+    width: 534px;
+}
