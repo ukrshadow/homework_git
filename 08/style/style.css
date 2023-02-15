@@ -54,6 +54,7 @@ h1 {
     font-size: 18px;
     line-height: 21px;
     color: #FFFFFF;
+    padding: 0 0 0 35px;
 
 }
 
@@ -75,9 +76,14 @@ h1 {
     padding: 12px 0 14px 12px;
 }
 
-.chekchox-size{
+/* .chekchox-size{
     width: 19px;
     height: 19px;
+} */
+input[type=checkbox]{
+    width: 19px;
+    height: 19px;
+    position: absolute;
 }
 
 .list-item {
