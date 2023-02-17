@@ -55,7 +55,6 @@ h1 {
     line-height: 21px;
     color: #FFFFFF;
     padding: 0 0 0 35px;
-
 }
 
 .fs-11{
@@ -68,22 +67,13 @@ h1 {
 .bg-list{
     background: #88839E;
 }
+
 .bg-list-dark:nth-child(2n){
     background: #7A7593;
 }
 
 .pd-12{
     padding: 12px 0 14px 12px;
-}
-
-/* .chekchox-size{
-    width: 19px;
-    height: 19px;
-} */
-input[type=checkbox]{
-    width: 19px;
-    height: 19px;
-    position: absolute;
 }
 
 .list-item {
@@ -93,6 +83,43 @@ input[type=checkbox]{
     border-bottom: 3px solid transparent;   
     position: relative; 
 }
+
+/*  */
+
+.list-item input{
+    display: none;
+}
+
+.list-item label:before,
+.list-item label:after{
+    content: '';
+    position: absolute;
+    display: inline-block;
+}
+
+.list-item label:before{
+    width: 19px;
+    height: 19px;
+    background: white;
+    left: 0;
+}
+
+.list-item label:after{
+    width: 8px;
+    height: 6px;
+    border-left: 3px solid rgb(0, 0, 0);
+    border-bottom: 3px solid rgb(0, 0, 0);
+    transform: rotate(-45deg);
+    left: 4px;
+    top: 4px;
+    display: none;  
+}
+
+.list-item input:checked + label:after{
+    display: block;
+}
+
+/*  */
 
 .list-item:hover {
     background: #625E77;
@@ -104,38 +131,28 @@ label {
     position: absolute;
     width: 100%;
     height: 100%;
+    left: 12px;
+    top: 12px;
+    padding-left: 25px;
 }
-
-
-input:checked + span {
-    text-decoration: line-through;
-    color: #9B96AC;
-    
-}
-
-/* input:checked + label {
-    text-decoration: line-through;
-    color: #9B96AC;
-    
-} */
 
 input:checked ~ span {
     text-decoration: line-through;
     color: #9B96AC;  
-    
 }
 
-.fs-11::before {
+.fs-11:before {
     content: "(";
 }
 
-.fs-11::after {
+.fs-11:after {
     content: ")";
 }
 
 .btn {
     padding: 45px 0 0 0;
 }
+
 .button {
     padding: 12px 0;
     background: #4A4F56;
