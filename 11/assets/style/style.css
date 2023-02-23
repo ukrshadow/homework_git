@@ -219,11 +219,18 @@ img {
     z-index: -1;
 }
 
-.signup__btn{
-  justify-content: center;
-  margin-left: 11px;
-  padding: 69px;
+.signup__btn {
+    justify-content: center;
+    margin-left: 11px;
+    
 }
+.design-tools__block {
+    padding-bottom: 70px;
+}
+.design-tools__items{
+    margin-bottom: 70px;
+}
+
 .design-professional{
     padding-bottom: 100px;
 }
@@ -232,6 +239,7 @@ img {
     max-width: 525px;
     padding-bottom: 10px;
 }
+
 .marketers__aside{
     max-width: 486px;
 }
@@ -261,6 +269,7 @@ img {
 .pdtop-20{
  padding-top: 20px;
 }
+
 .pdtop-30{
     padding-top: 30px;
    }
@@ -296,17 +305,19 @@ img {
 }
 
 .product-managers__list{
-    padding-top: 40px
+    padding-top: 40px;
+    color: var(--color_main-text);
 }
-.product-managers__list li{
-padding-left: 65px;
+
+.product-managers__list li {
+    padding-left: 65px;
     position: relative;
     line-height: 26px;
     margin-bottom: 30px;
 }
 .product-managers__list li:before,
-.product-managers__list li:after{
-content: '';
+.product-managers__list li:after {
+    content: '';
     position: absolute;
 }
 
@@ -318,6 +329,7 @@ content: '';
     border-radius: 10px;
     top: 7px;
 }
+
 .product-managers__list li::after{
     left: 10px;
     top: 19px;
