@@ -1,13 +1,18 @@
 :root{
     /* color */
 --color-main: #000000;
+--bg-gray:rgb(197, 197, 197);
 
 /* fonts */
 --ff-tourney:'tourney-bold';
 --ff-faro:'farrolight';
 --ff-francois:'francois_oneregular';
 --ff-staatlichesregular:'staatlichesregular';
---ff-ptsans:'pt_sansbold';
+--ff-ptsans-reg:'pt_sansregular';
+--ff-ptsans-italic:'pt_sansitalic';
+--ff-ptsansB:'pt_sansbold';
+
+
 
 --fw-300:300;
 --fw-400:400;
@@ -31,7 +36,7 @@
 html,body {
     width: 100%;
     height: 100%;
-    font-family: var(--ff-ptsans);
+    font-family: var(--ff-ptsans-reg);
     font-weight: var(--fw-400);
     font-size: var(--fs-28);
     line-height: var(--lh-48);
@@ -109,9 +114,13 @@ h1, h2{
 .content{
     margin-top: 70px;
 }
+
+.content>p {
+    padding-bottom: 70px;
+}
+
 .section_title {
     display: flex;
-
 }
 
 .chapter__number {
@@ -121,4 +130,30 @@ h1, h2{
     line-height: var(--lh-30);
     letter-spacing :0.04em;
     margin-left: 10px;
+}
+
+.chapter {
+    padding-bottom: 70px;
+}
+
+.chapter__text, .chapter>ul>li {
+    padding-top: 40px;
+}
+.plus::before{
+    content: "+";
+    margin-right: 5px;
+}
+
+.--text_underline{
+    text-decoration: underline;
+}
+
+.--font_italic{
+    font-family: var(--ff-ptsans-italic)
+}
+.--font_bold{
+    font-family: var(--ff-ptsansB)
+}
+.--bg-gray{
+    background: var(--bg-gray);
 }
