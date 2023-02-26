@@ -1,0 +1,124 @@
+:root{
+    /* color */
+--color-main: #000000;
+
+/* fonts */
+--ff-tourney:'tourney-bold';
+--ff-faro:'farrolight';
+--ff-francois:'francois_oneregular';
+--ff-staatlichesregular:'staatlichesregular';
+--ff-ptsans:'pt_sansbold';
+
+--fw-300:300;
+--fw-400:400;
+--fw-600:600;
+--fw-700:700;
+--lh-18:18px;
+--lh-28:28px;
+--lh-30:30px;
+--lh-48:48px;
+--fs-22:22px;
+--fs-28:28px;
+--fs-30:30px;
+--fs-36:36px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body {
+    width: 100%;
+    height: 100%;
+    font-family: var(--ff-ptsans);
+    font-weight: var(--fw-400);
+    font-size: var(--fs-28);
+    line-height: var(--lh-48);
+}
+a {
+    text-decoration: none;
+    color: var(--color-main);
+}
+
+ul,li{
+  list-style: none;  
+}
+
+img {
+    vertical-align: top;
+}
+
+.--display-flex-start {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 98%;
+}
+
+.nav-menu {
+    padding-top: 13px;
+}
+
+.nav-menu__list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lang {
+    font-family: var(--ff-tourney);
+    font-weight: var(--fw-600);
+    font-size: var(--fs-22);
+    line-height: var(--lh-18);
+}
+
+.breadcrumbs {
+   font-family: var(--ff-staatlichesregular);
+   font-weight: var(--fw-400);
+   font-size: var(--fs-22);
+   line-height: var(--lh-28);
+}
+
+.nav-menu__items :nth-child(2){
+    margin-left: 50px;
+}
+
+.breadcrumbs:nth-child(3):before{
+    content: '/';
+    padding: 0 10px;
+ }
+
+.intro {
+    padding-top: 70px;
+}
+
+h1, h2{
+    font-family: var(--ff-francois);
+    font-weight: var(--fw-400);
+    font-size: var(--fs-36);
+    line-height: var(--lh-48);
+    text-transform: uppercase;
+}
+
+.content{
+    margin-top: 70px;
+}
+.section_title {
+    display: flex;
+
+}
+
+.chapter__number {
+    font-family: var(--ff-faro);
+    font-weight: var(--fw-300);
+    font-size: var(--fs-30);
+    line-height: var(--lh-30);
+    letter-spacing :0.04em;
+    margin-left: 10px;
+}
