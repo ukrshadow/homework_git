@@ -38,6 +38,7 @@
 }
 
 html,body {
+ /*    scroll-padding-top: 100px; */
     width: 100%;
     font-family: var(--ff-ptsans-reg);
     font-weight: var(--fw-400);
@@ -204,8 +205,10 @@ h1, h2{
     top: 70px;
 }
 
+
+
 .--bg-image{
-    background: url(../img/bg-picture.png) 72% 53% no-repeat;
+    background: url(../img/bg-picture.png) right 136px no-repeat;
     background-attachment: fixed;
 }
 
