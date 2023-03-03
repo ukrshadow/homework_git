@@ -271,6 +271,17 @@ input[type=file]{
     width: 138px;
     height: 30px;
     cursor: pointer;
+    position: relative;
+}
+
+.avatar__label::after{
+    content: '';
+    background: url(../image/photo.svg) no-repeat;
+    position: absolute;
+    top: 9px;
+    right: 13px;
+    width: 14px;
+    height: 12px;
 }
 
 .delete-avatar__btn {
