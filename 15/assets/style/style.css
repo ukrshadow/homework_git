@@ -62,6 +62,10 @@ h1{
     margin-bottom: 20px;
 }
 
+.form__wrapper{
+    margin-top: 25px;
+}
+
 form{
     padding-bottom: 22px;
 }
