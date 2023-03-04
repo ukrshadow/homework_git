@@ -72,13 +72,21 @@ form{
 
 .form__row{
     display: flex;
-    justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
 }
 
+
+.form-input:first-child:not(.form-input.--width_100){
+    margin-right: 5px;
+}
+.form-input:last-child:not(.form-input.--width_100){
+    margin-left: 5px;
+}
+
+
 .form-input{
-    width: 245px;
+    width: 100%;
 
 }
 .form-input__elem{
