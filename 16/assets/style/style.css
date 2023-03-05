@@ -1,0 +1,246 @@
+:root {
+    /* fonts */
+    --ff-roboto400:'robotoregular';
+    --ff-roboto500:'robotomedium';
+    --fw-500:500;
+    --fw-600:600;
+
+    --fs-16:16px;
+    --fs-24:24px;
+    --fs-40:40px;
+
+
+    --lh-18:18.75px;
+    --lh-21:21.28px;
+    --lh-28:28px;
+    --lh-52:52px;
+
+/* colors */
+
+--c-main-text: #16133D;
+--c-light-blue:#7690A8;
+--c-green:#3DB370;
+--c-light-gray: #EFEEF3;
+--c-very-light-blue: #1565d81a;
+--c-white:#fff;
+--color-turquoise: #caeff2;
+--color-light-turquoise: #e1f4f5;
+--color-light-green: #52c29d;
+--color-dark-blue:#16133D;
+}
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
+    color: var(--c-main-text);
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,li{
+  list-style: none;  
+}
+
+img {
+    vertical-align: top;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    width: 98%;
+}
+
+.header__wrapper{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-bottom: 100px;
+    
+}
+.nav {
+    padding: 23px 0;
+    border-bottom: 1px solid var(--c-light-gray);
+}
+
+.sub-title{
+    font-family: var(--ff-roboto400);
+    font-size: var(--fs-16);
+    line-height: var(--lh-21);
+    color: var(--c-light-blue);
+    margin-bottom: 15px;
+    display: block;
+}
+
+h1{
+    font-family: 'nunito_sanssemibold';
+    font-weight: 600;
+    font-size: var(--fs-40);
+    line-height: var(--lh-52);
+    margin-bottom: 40px;
+    
+}
+
+.our-services{
+    padding-bottom: 100px;
+}
+
+.services__list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.services__item {
+    padding: 40.5px 40px;
+    width: 100%;
+    background: var(--c-white);
+    border: 1px solid var(--c-light-gray);
+    border-radius: 8px;
+
+}
+
+.services__item:not(:last-child){
+    margin-right: 30px;
+}
+
+.services__item:hover{
+    border: 1px solid var(--c-green);
+    transition: all 0.4s;
+
+}
+.services-item__content{
+    position: relative;
+}
+
+.services-item__logo {
+    width: 64px;
+    height: 64px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 1px solid var(--c-very-light-blue);
+    margin-bottom: 30px;
+    border-radius: 16px;
+    
+}
+
+
+.services__logo{
+    width: 40px;
+    height: 36px;
+    position: absolute;
+    top:14px;
+    left: 13px;
+}
+
+
+
+.services-item__text-block{
+    padding-top: 94.5px;
+    padding-bottom: 50.5px;
+}
+
+h2{
+    font-family: 'robotoregular';
+    font-weight: 400;
+    font-size: var(--fs-24);
+    line-height: var(--lh-21);
+    letter-spacing: 0.2px;
+    margin-bottom: 15px;
+}
+
+.services-item__text{
+    font-family: 'robotoregular';
+    font-weight: 400;
+    font-size: var(--fs-16);
+    line-height: var(--lh-28);
+    max-width: 275px;
+  
+}
+
+.services-item__link{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    font-family: 'robotoregular';
+    font-weight: 600;
+    color: var(--c-green);
+    font-size: var(--fs-16);
+    line-height: var(--lh-18);
+}
+
+.services__item:hover .--с-svg__turquoise{
+    fill: var(--color-turquoise);  
+    transition: all 0.4s 
+   }
+   .services__item:hover .--с-svg__light-turquoise{
+    fill: var(--color-light-turquoise);
+    transition: all 0.4s   
+   }
+   .services__item:hover .--с-svg__light-green{
+    fill: var(--color-light-green);
+    transition: all 0.4s   
+   }
+
+.footer__wrapper{
+    background: var(--color-dark-blue);
+
+}
+
+.footer.logo {
+    padding: 40px 0;
+}
+
+.footer-icons__list{
+    display: flex;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.footer-icons__item{
+    width: 38px;
+    height: 38px;
+    border-radius: 5px;
+    background: var(--c-light-gray);
+    position: relative;
+}
+
+.footer-icons__item:not(:last-child){
+    margin-right: 10px;
+   
+}
+
+.footer-svg{
+    position: absolute;
+    top:9px;
+    right:9px;
+    width: 20px;
+    height: 20px;
+}
+
+.icon__link{
+    width: 100%;
+    position: absolute;
+    height: 100%;
+}
+
+.footer-icons__item:hover .--c-green{
+    fill: var(--c-green);
+    transition: 0.4s;
+}
+
+.svg__sprite{
+    display: none;
+}
