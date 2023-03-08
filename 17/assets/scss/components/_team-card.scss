@@ -1,0 +1,85 @@
+.team-card {
+    @include flex-center;
+    justify-content: space-between;
+    padding: 40px 0;
+    position: relative;
+   
+    &__left{
+        margin-top: 65px;
+    }
+
+    &__left-content {
+        background: url(../../assets/img/angle-top-left.svg) top left no-repeat,
+                    url(../../assets/img/angle-top-right.svg) top right no-repeat,
+                    url(../../assets/img/angle-bottom-left.svg) bottom left no-repeat,
+                    url(../../assets/img/angle-bottom-right.svg) bottom right no-repeat,
+       
+    }
+
+    &__left-image{
+        padding: 15px;
+    }
+
+    &__right{
+        margin-top: 70px;
+    }
+
+    &__right-title{
+        font-family: 'robotomedium';
+        font-weight: 900;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+        margin-bottom: 60px;
+        position: relative;
+        color: $c-main;
+    }
+
+    &__right-title::after{
+        content: "";
+        background: url(../../assets/img/divider_bottom.svg) center bottom no-repeat;
+        width: 100%;
+        position: absolute;
+        top: 64px;
+        left: 0;
+        height: 1px;      
+    }
+
+    &__right-skill{
+        font-family: 'ralewaymedium';
+        font-size: 24px;
+        line-height: 36px;
+        font-weight: 400;
+        color: $c-main;
+        margin-bottom: 30px;
+        text-align: center;
+        display: block;
+    }
+
+    &__right-social-icons{
+        @include flex-center;
+        justify-content: center;
+        margin-bottom: 49px;
+    }
+
+    &__right-text{
+        max-width: 430px;
+        font-family: 'ralewaymedium';
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 500;
+        color: $c-parag;
+        margin-bottom: 49px;
+        text-align: center;
+    }
+}
+
+.team-card::before{
+    content: "";
+    border-left: 1px solid #FFCC00;
+    position: absolute;
+    left: calc($container-width / 2);
+    top:0;
+    width: 1px;
+    height: 100%;
+}

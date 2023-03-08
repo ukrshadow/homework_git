@@ -1,0 +1,32 @@
+.our-team {
+    padding: 121px 0;
+        
+    &__wrapper{
+    margin-bottom: 40px;
+        
+    }
+
+    &__title-content{
+        padding-bottom: 40px;
+    }
+
+    &__subtitle {
+        font-family: 'ralewaymedium';
+        font-size: 18px;
+        line-height: 24px;
+        color: $c-main;
+        margin-bottom: 15px;
+        text-transform: uppercase;
+        text-align: center;
+        display: block;
+    }
+
+    &__title{
+        font-family: 'robotomedium';
+        font-size: 60px;
+        line-height: 66px;
+        color: $c-gold;
+        text-transform: uppercase;
+        text-align: center;
+    }
+}
