@@ -34,6 +34,13 @@ img {
 .our-team__wrapper {
   margin-bottom: 40px;
 }
+.our-team__wrapper::after {
+  content: "";
+  background: url(../../assets/img/Line-1.svg) 360px center no-repeat, url(../../assets/img/bonfire-sharp-1.svg) 575px center no-repeat, url(../../assets/img/Line-2.svg) 600px center no-repeat;
+  display: inline-block;
+  width: 100%;
+  height: 20px;
+}
 .our-team__title-content {
   padding-bottom: 40px;
 }
@@ -41,7 +48,7 @@ img {
   font-family: "ralewaymedium";
   font-size: 18px;
   line-height: 24px;
-  color: #666666;
+  color: #898F8F;
   margin-bottom: 15px;
   text-transform: uppercase;
   text-align: center;

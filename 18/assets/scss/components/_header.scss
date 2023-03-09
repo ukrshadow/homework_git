@@ -1,0 +1,18 @@
+.header {
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 44px 0;
+    }
+    &__logo a{
+        display: block;
+    }
+    &__logo-svg, &__search-svg{
+        height: 18px;
+        width: 100%;
+    }
+    &__search{
+        width: 17px;
+    }
+}

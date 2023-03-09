@@ -2,16 +2,6 @@
 
 
 @font-face {
-    font-family: 'nunito_sanssemibold';
-    src: url('../../assets/fonts/nunitosans-semibold-webfont.woff2') format('woff2'),
-         url('../../assets/fonts/nunitosans-semibold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-
-}
-
-@font-face {
     font-family: 'robotomedium';
     src: url('../../assets/fonts/roboto-medium-webfont.woff2') format('woff2'),
          url('../../assets/fonts/roboto-medium-webfont.woff') format('woff');
@@ -34,17 +24,6 @@
 
 
 
-
-@font-face {
-    font-family: 'interregular';
-    src: url('../../assets/fonts/inter-regular-webfont.woff2') format('woff2'),
-         url('../../assets/fonts/inter-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-
 @font-face {
     font-family: 'ralewaymedium';
     src: url('../../assets/fonts/raleway-medium-webfont.woff2') format('woff2'),
@@ -56,12 +35,20 @@
 }
 
 
-
-
 @font-face {
     font-family: 'ralewaymedium_italic';
     src: url('../../assets/fonts/raleway-mediumitalic-webfont.woff2') format('woff2'),
          url('../../assets/fonts/raleway-mediumitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+
+}
+
+@font-face {
+    font-family: 'ralewayregular';
+    src: url('../../assets/fonts/3241-font-webfont.woff2') format('woff2'),
+         url('../../assets/fonts/3241-font-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
