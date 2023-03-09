@@ -145,8 +145,16 @@ img {
   line-height: 24px;
   font-weight: 500;
   color: #333333;
-  margin-bottom: 49px;
+  margin-bottom: 29px;
   text-align: center;
+}
+.team-card__right-text::after {
+  content: "";
+  background: url(../../assets/img/decore.svg) 50% center no-repeat;
+  height: 4px;
+  width: 100%;
+  display: inline-block;
+  margin-top: 20px;
 }
 
 .team-card::before {
