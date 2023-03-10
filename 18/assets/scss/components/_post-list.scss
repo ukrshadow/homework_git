@@ -9,6 +9,11 @@
         flex-wrap: wrap;
     }
 
+    &__item:hover &__info{
+        
+
+    }
+
     &__img{
         margin-bottom: 25px;
         max-width: 45vw;

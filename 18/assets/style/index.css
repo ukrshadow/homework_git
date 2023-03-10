@@ -26,6 +26,11 @@ h2 {
   font-size: inherit;
 }
 
+.link {
+  color: inherit;
+  display: block;
+}
+
 .header__wrapper {
   display: flex;
   justify-content: space-between;
