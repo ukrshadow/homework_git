@@ -1,0 +1,18 @@
+.intro {
+    position: relative;
+    height: 60vh;
+    background: url(../../assets/img/bg-image.jpg) left top / 100% 100% no-repeat;
+    margin-bottom: 90px;
+
+    &__title {
+        font-family: 'RedHat-bold' ;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 64px;
+        letter-spacing: 0.05em;
+        color: $c-main-title;
+        top: 100px;
+        position: absolute;
+        max-width: 770px;
+    }
+}

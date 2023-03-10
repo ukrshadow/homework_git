@@ -1,5 +1,5 @@
 $c-main-title:#000000;
-$c-main-subtitle:#7B7B7B;;
+$c-main-subtitle:#7B7B7B;
 $c-main-text:#565656;
 $c-white:#fff;
 $c-light-gray:#F4F4F4;
@@ -26,4 +26,8 @@ a {
     max-width: 1170px;
     margin: 0 auto;
     width: 95%;
+}
+
+h2{
+    font-size: inherit;
 }

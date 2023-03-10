@@ -1,0 +1,14 @@
+.most-popular{
+    margin-bottom: 90px;
+    
+    &__list{
+        margin-bottom: 50px;
+    }
+
+    &__btn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+}

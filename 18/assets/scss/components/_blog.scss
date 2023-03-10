@@ -1,0 +1,45 @@
+.blog {
+    margin-bottom: 90px;
+    
+    &__title {
+       
+    }
+
+    &__content {
+        
+     
+    }
+
+    &__item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 30px;
+        margin-bottom: 50px;
+    }
+    
+     &__item:nth-child(2n) {
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: row-reverse;
+    }  
+
+    &__item:nth-child(2n) &__info {
+        margin-left: auto;
+        margin-right: 0;
+    }
+    &__item:last-child {
+        margin-bottom: 0;
+    }
+
+    &__img {
+        max-width: 90vw
+    }
+
+    &__info {
+       
+        margin-right: auto;
+    }
+    
+}

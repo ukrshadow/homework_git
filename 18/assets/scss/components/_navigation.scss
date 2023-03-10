@@ -1,23 +1,48 @@
 .nav-menu{
+    margin: 0 84px auto auto;
+    padding: 1px 0;
+ 
     &__list {
         display: flex;
         justify-content: flex-start;
         align-items: center;
         margin-right: auto;
+        font-size: 0;
     }
 
     &__item {
-        font-family: serif;
+        font-family: 'latoregular';
         font-size: 14px;
         font-weight: 400;
         line-height: 17px;
         letter-spacing: 0.3em;
         text-transform: uppercase;
+        margin-right: 21px;
+        position: relative;
     }
 
-    &__item:not(:last-child){
-        margin-right: 42px;
+    &__item + &__item{
+        margin: 0 21px;
     }
 
+    &__item:last-child{
+        margin-right: 0px;
+    }
+    
+    &__link {
+        color: $c-main-title;
+        display: block;
+    }
+
+    &__item:hover:after{
+        content: "";
+        background: url(../../assets/img/line.svg) center bottom no-repeat;
+        transition: all 0.7s ease;
+        width: 100%;
+        height: 1px;
+        display: block;
+        position: absolute;
+        top: 21px;
+    }
     
 }
