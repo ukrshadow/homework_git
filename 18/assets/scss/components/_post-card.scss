@@ -1,8 +1,7 @@
-.posts-list {
+.post-card {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap:30px;
+    flex-wrap: wrap;
+    flex-direction: column;
 
     &__item {
         display: flex;
@@ -46,7 +45,7 @@
         letter-spacing: 0.1em;
         color: $c-main-title;
         margin-bottom: 15px;
-        max-width: 369px;
+        
     }
 
     &__text{
@@ -56,4 +55,10 @@
         letter-spacing: 0.05em;
         color: $c-main-text;
     }
+
+    &__link {
+        color: inherit;
+        display: block;
+    }
+
 }

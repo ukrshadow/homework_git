@@ -26,11 +26,6 @@ h2 {
   font-size: inherit;
 }
 
-.link {
-  color: inherit;
-  display: block;
-}
-
 .header__wrapper {
   display: flex;
   justify-content: space-between;
@@ -99,9 +94,8 @@ h2 {
 
 .intro {
   position: relative;
-  height: 60vh;
   background: url(../../assets/img/bg-image.jpg) left top/100% 100% no-repeat;
-  margin-bottom: 90px;
+  padding: 100px 0 380px 0;
 }
 .intro__title {
   font-family: "RedHat-bold";
@@ -111,12 +105,12 @@ h2 {
   letter-spacing: 0.05em;
   color: #000000;
   top: 100px;
-  position: absolute;
   max-width: 770px;
 }
 
 .blog {
   margin-bottom: 90px;
+  padding-top: 70px;
 }
 .blog__item {
   display: flex;
@@ -182,21 +176,27 @@ h2 {
 .latest-posts {
   margin-bottom: 90px;
 }
-.posts-list {
+.latest-posts__list {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   gap: 30px;
 }
-.posts-list__item {
+
+.post-card {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.post-card__item {
   display: flex;
   flex-wrap: wrap;
 }
-.posts-list__img {
+.post-card__img {
   margin-bottom: 25px;
   max-width: 45vw;
 }
-.posts-list__type-date {
+.post-card__type-date {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -207,21 +207,24 @@ h2 {
   color: #7B7B7B;
   margin-bottom: 25px;
 }
-.posts-list__title {
+.post-card__title {
   font-family: "RedHat-Medium";
   font-size: 22px;
   line-height: 36px;
   letter-spacing: 0.1em;
   color: #000000;
   margin-bottom: 15px;
-  max-width: 369px;
 }
-.posts-list__text {
+.post-card__text {
   font-family: "latoregular";
   font-size: 16px;
   line-height: 26.56px;
   letter-spacing: 0.05em;
   color: #565656;
+}
+.post-card__link {
+  color: inherit;
+  display: block;
 }
 
 .most-popular {
@@ -229,6 +232,10 @@ h2 {
 }
 .most-popular__list {
   margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 30px;
 }
 .most-popular__btn {
   display: flex;
