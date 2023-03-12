@@ -4,10 +4,8 @@
         @include flex-between;
         padding: 44px 0;   
 
-        @include breakpoint('xl') {
+        @include breakpoint() {
             flex-direction: column;
-        }
-        @include breakpoint('md') {
             padding: 10px 0;   
         }
     }

@@ -16,6 +16,7 @@
         line-height: 64px;
         letter-spacing: 0.05em;
         color: $c-main-title;
+        max-width: 770px;
             @include breakpoint() {
                 font-size: 36px;
                 line-height: 50px;
