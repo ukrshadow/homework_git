@@ -16,7 +16,7 @@
         @include flex-between;
         gap: 30px;
         margin-bottom: 50px;
-            @include breakpoint('xl') {
+            @include breakpoint() {
                 column-gap: 20px;
             }
             @include breakpoint('md') {
@@ -31,7 +31,7 @@
 
     &__img {
         width: 100%;
-            @include breakpoint('xl') {
+            @include breakpoint() {
                 width: 340px;
             }
             @include breakpoint('md') {
@@ -41,6 +41,7 @@
 
     &__info {
         margin-right: auto;
+
     }
     
     &-information {
@@ -51,7 +52,7 @@
             letter-spacing: 0.1em;
             color: $c-main-subtitle;
             margin-bottom: 30px;
-                @include breakpoint('xl') {
+                @include breakpoint() {
                     margin-bottom: 20px;
                 }
         }
@@ -73,7 +74,7 @@
             letter-spacing: 0.1em;
             color: $c-main-subtitle;
             margin-bottom: 50px;
-                @include breakpoint('xl') {
+                @include breakpoint() {
                     margin-bottom: 20px;
                 }
         }

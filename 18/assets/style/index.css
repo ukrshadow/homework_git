@@ -207,7 +207,7 @@ h2 {
   gap: 30px;
   margin-bottom: 50px;
 }
-@media screen and (max-width: ) {
+@media screen and (max-width: 1440px) {
   .blog__item {
     -moz-column-gap: 20px;
          column-gap: 20px;
@@ -225,7 +225,7 @@ h2 {
 .blog__img {
   width: 100%;
 }
-@media screen and (max-width: ) {
+@media screen and (max-width: 1440px) {
   .blog__img {
     width: 340px;
   }
@@ -246,7 +246,7 @@ h2 {
   color: #7B7B7B;
   margin-bottom: 30px;
 }
-@media screen and (max-width: ) {
+@media screen and (max-width: 1440px) {
   .blog-information__subtitle {
     margin-bottom: 20px;
   }
@@ -268,7 +268,7 @@ h2 {
   color: #7B7B7B;
   margin-bottom: 50px;
 }
-@media screen and (max-width: ) {
+@media screen and (max-width: 1440px) {
   .blog-information__date-published {
     margin-bottom: 20px;
   }
