@@ -1,6 +1,10 @@
 .nav-menu{
-    margin: 0 84px auto auto;
+    margin: 0 84px 0 auto;
     padding: 1px 0;
+        @include breakpoint('md') {
+            margin: 0 auto;
+            margin-bottom: 15px;
+        }   
  
     &__list {
         display: flex;
@@ -8,6 +12,9 @@
         align-items: center;
         margin-right: auto;
         font-size: 0;
+            @include breakpoint('md') {
+                flex-direction: column;
+            }
     }
 
     &__item {
@@ -29,6 +36,13 @@
         margin-right: 0px;
     }
     
+
+    &__item, &__item + &__item, &__item:last-child {
+        @include breakpoint('md') {
+            margin: 0;
+    }
+}
+
     &__link {
         color: $c-main-title;
         display: block;

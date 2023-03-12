@@ -1,34 +1,25 @@
-$c-main-title:#000000;
-$c-main-subtitle:#7B7B7B;
-$c-main-text:#565656;
-$c-white:#fff;
-$c-light-gray:#F4F4F4;
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html,body{
-    width: 100%;
-}
-
-ul {
-list-style: none;
-}
-
-a {
-    text-decoration: none;   
-}
+@import './reset';
+@import './mixin';
+@import './breakpoints';
+@import './const';
+@import './mods';
 
 .container {
-    max-width: 1170px;
+    max-width: 1190px;
     margin: 0 auto;
-    width: 95%;
+    width: 100%;
+    padding: 0 10px;
+        @include breakpoint() {
+            max-width: $breakpoint-md;
+            padding: 0 34px;
+        }
+        @include breakpoint('md') {
+            max-width: 100%;
+            padding: 0 5px;
+        }
 }
 
-h2{
+h2 {
     font-size: inherit;
 }
 

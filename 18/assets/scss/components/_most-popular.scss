@@ -1,5 +1,8 @@
 .most-popular{
     margin-bottom: 90px;
+        @include breakpoint() {
+            margin-bottom: 70px;
+        }
     
     &__list{
         margin-bottom: 50px;
@@ -7,12 +10,17 @@
         justify-content: space-between;
         align-items: flex-start;
         gap: 30px;
+            @include breakpoint() {
+                column-gap: 20px;
+            }
+            @include breakpoint('md') {
+                flex-direction: column;
+                row-gap: 50px;
+            }
     }
 
     &__btn{
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        @include flex-between;
         margin: 0 auto;
     }
 }
